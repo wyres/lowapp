@@ -1,0 +1,7 @@
+deviceId:01
+groupId:0037
+chanId:00
+txDatarate:07
+pTime:1000
+gwMask:00000000
+encKey:11223344556677889900112233445566
