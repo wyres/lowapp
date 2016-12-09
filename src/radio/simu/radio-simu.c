@@ -305,7 +305,7 @@ void* thread_continuous_radio(void *arg) {
 	while(th_radio_running) {
 		/* Wait on condition */
 	    pthread_mutex_lock(&mutex_radio);
-	    while(Settings.State == RF_IDLE) {
+	    while(Settings.State == RF_IDLE && th_radio_running) {
 	    	pthread_cond_wait(&cond_radio, &mutex_radio);
 	    }
 	    fail_generator = rand() % 100;
