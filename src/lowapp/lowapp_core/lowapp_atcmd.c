@@ -1429,7 +1429,7 @@ static int8_t parseATCmd(uint8_t* line, uint8_t** cmd, uint8_t** param1, uint8_t
 	/* Move after the '=' */
 	lp++;
 
-#ifdef LOWAPP_MSG_FORMAT_GPSAPP
+#if (defined(LOWAPP_MSG_FORMAT_GPSAPP) || defined(LOWAPP_MSG_FORMAT_GPSAPP_RSSI))
 	/*
 	 * Special case for GPSAPP message format
 	 * We should not look for , because the following bytes
