@@ -384,7 +384,20 @@ static int8_t cmd_set(const uint8_t* p1, const uint8_t* p2, uint8_t** err) {
 			}
 			/* Reload full configuration as required */
 			confRet = load_full_config();
-			if(confRet == 0){
+			/*
+			 * Display OK message even if at least one
+			 * configuration value is not valid.
+			 * Check for the set parameter is already done above
+			 * in check_attribute so this means another attribute
+			 * is not right.
+			 * The only way for an attribute not to be right is
+			 * for the persistent storage to be empty at startup,
+			 * so no value is actually read at boot time. In this
+			 * case, the device would be disconnected and the
+			 * invalid configuration error message would be displayed
+			 * when trying to connect.
+			 */
+			if(confRet == 0 || confRet == -2){
 				uint8_t js[200] = "";
 				/* Format message for answer to the UART */
 				/* Size of the current string to add to the anwser */
@@ -412,11 +425,6 @@ static int8_t cmd_set(const uint8_t* p1, const uint8_t* p2, uint8_t** err) {
 			/* At least one attribute was not found */
 			else if(confRet == -1) {
 				*err=(uint8_t*)"Attribute not found";
-				return LOWAPP_ERR_LOADCFG;
-			}
-			/* At least one attribute is not valid (should not happen) */
-			else if(confRet == -2) {
-				*err=(uint8_t*)"Invalid attribute found";
 				return LOWAPP_ERR_LOADCFG;
 			}
 			else {
