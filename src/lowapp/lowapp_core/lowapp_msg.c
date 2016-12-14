@@ -79,6 +79,10 @@ const uint8_t jsonErrorTxFail[] = "NOK TX {\"status\":\"FAILED\"}";
 
 /** NOK TX json response */
 const uint8_t jsonNokTx[] = "NOK TX";
+/** NOK for RXERROR json response */
+const uint8_t jsonNokTxRxError[] = "NOK TX {\"status\":\"RXERROR\"}";
+/** NOK for RXTIMEOUT json response */
+const uint8_t jsonNokTxRxTimeout[] = "NOK TX {\"status\":\"RXTIMEOUT\"}";
 
 /** Statistics for AT+WHO command prefix for json response */
 const uint8_t jsonWhoPrefix[] = "OK {\"wholist\":[";

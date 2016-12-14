@@ -145,6 +145,8 @@ extern const uint8_t jsonErrorMaxRetry[];
 extern const uint8_t jsonErrorTxFail[];
 extern const uint8_t jsonPrefixOkTx[];
 extern const uint8_t jsonNokTx[];
+extern const uint8_t jsonNokTxRxError[];
+extern const uint8_t jsonNokTxRxTimeout[];
 
 /* Safeguard timers */
 extern uint16_t timer_safeguard_rxing_std;
@@ -1448,7 +1450,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 			else if(received == -3) {
 				LOG(LOG_PARSER, "CRC check failed");
 			}
-			_sys->SYS_cmdResponse((uint8_t*)"NOK TX", 6);
+			_sys->SYS_cmdResponse(jsonNokTx, strlen((char*)jsonNokTx));
 			if(msg != NULL) {
 				/* Free ack message received */
 				free(msg);
@@ -1460,7 +1462,29 @@ static STATES state_rxing_ack(EVENT_T evt) {
 
 		return IDLE;
 	case RXERROR:
+		setTimerForUnblockingTx();
+
+		/* Set RX configuration back to standard */
+		_sys->SYS_radioSetRxFixLen(false, 0);
+		_sys->SYS_radioSetPreamble(_preambleLen);
+		_sys->SYS_radioSetRxContinuous(true);
+
+		/* Nothing was received by the radio */
+		LOG(LOG_PARSER, "No ACK");
+		_sys->SYS_cmdResponse(jsonNokTxRxError, strlen((char*)jsonNokTxRxError));
+		return IDLE;
 	case RXTIMEOUT:
+		setTimerForUnblockingTx();
+
+		/* Set RX configuration back to standard */
+		_sys->SYS_radioSetRxFixLen(false, 0);
+		_sys->SYS_radioSetPreamble(_preambleLen);
+		_sys->SYS_radioSetRxContinuous(true);
+
+		/* Nothing was received by the radio */
+		LOG(LOG_PARSER, "No ACK");
+		_sys->SYS_cmdResponse(jsonNokTxRxTimeout, strlen((char*)jsonNokTxRxTimeout));
+		return IDLE;
 	case TIMEOUT:
 		setTimerForUnblockingTx();
 
@@ -1471,7 +1495,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 
 		/* Nothing was received by the radio */
 		LOG(LOG_PARSER, "No ACK");
-		_sys->SYS_cmdResponse((uint8_t*)"NOK TX", 6);
+		_sys->SYS_cmdResponse(jsonNokTx, strlen((char*)jsonNokTx));
 		return IDLE;
 	default:
 		return _currentState;		// Ignore event and stay here
