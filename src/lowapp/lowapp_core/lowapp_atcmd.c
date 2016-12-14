@@ -1134,24 +1134,23 @@ static int8_t at_cmd_process(uint8_t* cmdrequest) {
 		/* Format message for answer to the UART */
 		/* Size of the current string to add to the anwser */
 		uint8_t sizeStr = 0;
-		/* Pointer to move along the anwser buffer */
-		uint8_t *ptrBuff = jerr;
+		/* Offset for printing */
+		uint8_t offset = 0;
 		/* Build the JSON message */
 		sizeStr = strlen((char*)jsonPrefixError);
-		memcpy(ptrBuff, jsonPrefixError, sizeStr);
-		ptrBuff += sizeStr;
-		ptrBuff += FillBuffer8_t(ptrBuff, 0, (uint8_t*)&pret, 1, false);
+		memcpy(jerr+offset, jsonPrefixError, sizeStr);
+		offset += sizeStr;
+		offset = FillBuffer8_t(jerr, offset, (uint8_t*)&pret, 1, false);
 		sizeStr = strlen((char*)jsonDelimiterErrorCodeString);
-		memcpy(ptrBuff, jsonDelimiterErrorCodeString, sizeStr);
-		ptrBuff += sizeStr;
+		memcpy(jerr+offset, jsonDelimiterErrorCodeString, sizeStr);
+		offset += sizeStr;
 		sizeStr = strlen((char*)err);
-		memcpy(ptrBuff, err, sizeStr);
-		ptrBuff += sizeStr;
+		memcpy(jerr+offset, err, sizeStr);
+		offset += sizeStr;
 		sizeStr = strlen((char*)jsonSuffix);
-		memcpy(ptrBuff, jsonSuffix, sizeStr);
-		ptrBuff += sizeStr;
-
-		_sys->SYS_cmdResponse(jerr, ptrBuff - jerr);
+		memcpy(jerr+offset, jsonSuffix, sizeStr);
+		offset += sizeStr;
+		_sys->SYS_cmdResponse(jerr, offset);
 	}
 	return pret;
 }
