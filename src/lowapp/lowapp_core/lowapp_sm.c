@@ -603,9 +603,10 @@ static STATES tryTxCurrent() {
 		/* For ACK, do not use the currentTxFrame buffer ! */
 		LOG(LOG_PARSER, "Trying to send ACK (tryTxAck)");	/* Used by log parser */
 		uint8_t frameBuffer[ACK_FRAME_LENGTH] = {0};
+		uint16_t frameBufferLength = 0;
 		/* ackMsg should only contain acknowledge type message */
-		currentTxLength = buildFrame(frameBuffer, currentTxMsg);
-		LOG(LOG_PARSER, "Sending frame of %u bytes to node %u", currentTxLength, currentTxMsg->content.ack.destId);
+		frameBufferLength = buildFrame(frameBuffer, currentTxMsg);
+		LOG(LOG_PARSER, "Sending frame of %u bytes to node %u", frameBufferLength, currentTxMsg->content.ack.destId);
 
 		LOG(LOG_INFO, "ack from %u to %u, rx %u, expect %u", currentTxMsg->content.ack.srcId, currentTxMsg->content.ack.destId, currentTxMsg->content.ack.rxdSeq, currentTxMsg->content.ack.expectedSeq);
 
@@ -615,9 +616,9 @@ static STATES tryTxCurrent() {
 		_sys->SYS_radioSetTxTimeout(timer_safeguard_txing_ack);
 
 		/* Start transmission */
-		_sys->SYS_radioTx(frameBuffer, currentTxLength);
+		_sys->SYS_radioTx(frameBuffer, frameBufferLength);
 
-		LOG(LOG_DBG, "Time on air computer : %u us", _sys->SYS_radioTimeOnAir(currentTxLength));
+		LOG(LOG_DBG, "Time on air computer : %u us", _sys->SYS_radioTimeOnAir(frameBufferLength));
 
 		/* Free the message buffer */
 		free(currentTxMsg);
@@ -1123,22 +1124,27 @@ static STATES state_txing(EVENT_T evt) {
 		/* Block transmissions for the duration of one preamble */
 		LOG(LOG_INFO, "Blocking TX for one preamble duration");
 		LOG(LOG_DBG, "txBlocked = true");
+		txBlocked = true;
 		txFrameFilled = false;
 
+		LOG(LOG_DBG, "frameFIlled = false");
 		/* Check if an ACK is expected */
-		if(currentTxMsg->content.std.destId == LOWAPP_ID_BROADCAST) {
+		if(lastDestination == LOWAPP_ID_BROADCAST) {
 			setTimerForUnblockingTx();
-			/* Free message buffer */
-			free(currentTxMsg);
-			currentTxMsg = NULL;
+			if(currentTxMsg != NULL) {
+				/* Free message buffer */
+				free(currentTxMsg);
+				currentTxMsg = NULL;
+			}
 			return IDLE;
 		}
 		else {
-			txBlocked = true;
-
-			/* Free message buffer */
-			free(currentTxMsg);
-			currentTxMsg = NULL;
+			LOG(LOG_DBG, "Not broadcast !");
+			if(currentTxMsg != NULL) {
+				/* Free message buffer */
+				free(currentTxMsg);
+				currentTxMsg = NULL;
+			}
 			return WAIT_BEFORE_LISTENING_FOR_ACK;
 		}
 	case TIMEOUT:
@@ -1174,10 +1180,11 @@ static STATES state_txing(EVENT_T evt) {
 			_sys->SYS_cmdResponse((uint8_t*)jsonErrorTxFail, strlen((char*)jsonErrorTxFail));
 
 			txFrameFilled = false;
-
-			/* Free message buffer */
-			free(currentTxMsg);
-			currentTxMsg = NULL;
+			if(currentTxMsg != NULL) {
+				/* Free message buffer */
+				free(currentTxMsg);
+				currentTxMsg = NULL;
+			}
 			return IDLE;
 		}
 	default:
