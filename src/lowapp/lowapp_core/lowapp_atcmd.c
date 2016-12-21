@@ -1121,7 +1121,6 @@ static int8_t at_cmd_process(uint8_t* cmdrequest) {
 	int8_t pret = parseATCmd(cmdrequest, &cmd, &p1, &p2, &err);
 	if (pret==0) {
 		/* Just blank line */
-//		_sys->SYS_cmdResponse((uint8_t*)"OK");
 		return 0;
 	}
 	if (pret>0) {

@@ -12,7 +12,6 @@
 #ifndef LOWAPP_CORE_INC_H_
 #define LOWAPP_CORE_INC_H_
 
-//#include "board.h"
 /* Include LoWAPP core headers */
 #include "lowapp_if.h"
 #include "lowapp_err.h"

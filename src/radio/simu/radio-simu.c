@@ -21,6 +21,7 @@
 #include <sys/syscall.h>
 #include <unistd.h>
 #include <math.h>
+#include <inttypes.h>
 
 #ifdef SIMU
 	#include "lowapp_sys_timer.h"
@@ -174,7 +175,7 @@ void simu_radio_setCallbacks(Lowapp_RadioEvents_t *evt) {
  * Update the path to the radio file
  */
 void update_radio_file() {
-	sprintf(radioFile, "%schannel-%lu", radioDir, Settings.Channel);
+	sprintf(radioFile, "%schannel-%"PRIu32, radioDir, Settings.Channel);
 }
 
 /**
@@ -561,7 +562,7 @@ int initialise_inotify(uint32_t chan, uint8_t sf, char *radioFileChannelToCheck,
 		int* fd, int* wd, nfds_t* nfds, struct pollfd* fds) {
 
 	/* Set the radio file to check using the channel */
-	sprintf(radioFileChannelToCheck, "channel-%lu", chan);
+	sprintf(radioFileChannelToCheck, "channel-%"PRIu32, chan);
 
 	/* Create the file descriptor for accessing the inotify API */
 	*fd = inotify_init1(IN_NONBLOCK);

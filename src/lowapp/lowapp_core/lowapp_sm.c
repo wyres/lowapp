@@ -506,7 +506,7 @@ static STATES tryTxFrame() {
 	LOG(LOG_PARSER, "Trying to send (tryTx)");	/* Used by log parser */
 	/* Used by log parser */
 	if(currentTxMsg == NULL) {
-		LOG(LOG_ERR, "Current message has been cleaned before the frame was sent");
+		LOG(LOG_ERR, "Sending frame of %u bytes", currentTxLength);
 	}
 	else {
 		LOG(LOG_PARSER, "Sending frame of %u bytes to node %u", currentTxLength, currentTxMsg->content.std.destId);
@@ -1457,7 +1457,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 			else if(received == -3) {
 				LOG(LOG_PARSER, "CRC check failed");
 			}
-			_sys->SYS_cmdResponse(jsonNokTx, strlen((char*)jsonNokTx));
+			_sys->SYS_cmdResponse((uint8_t*)jsonNokTx, strlen((char*)jsonNokTx));
 			if(msg != NULL) {
 				/* Free ack message received */
 				free(msg);
@@ -1478,7 +1478,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 
 		/* Nothing was received by the radio */
 		LOG(LOG_PARSER, "No ACK");
-		_sys->SYS_cmdResponse(jsonNokTxRxError, strlen((char*)jsonNokTxRxError));
+		_sys->SYS_cmdResponse((uint8_t*)jsonNokTxRxError, strlen((char*)jsonNokTxRxError));
 		return IDLE;
 	case RXTIMEOUT:
 		setTimerForUnblockingTx();
@@ -1490,7 +1490,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 
 		/* Nothing was received by the radio */
 		LOG(LOG_PARSER, "No ACK");
-		_sys->SYS_cmdResponse(jsonNokTxRxTimeout, strlen((char*)jsonNokTxRxTimeout));
+		_sys->SYS_cmdResponse((uint8_t*)jsonNokTxRxTimeout, strlen((char*)jsonNokTxRxTimeout));
 		return IDLE;
 	case TIMEOUT:
 		setTimerForUnblockingTx();
@@ -1502,7 +1502,7 @@ static STATES state_rxing_ack(EVENT_T evt) {
 
 		/* Nothing was received by the radio */
 		LOG(LOG_PARSER, "No ACK");
-		_sys->SYS_cmdResponse(jsonNokTx, strlen((char*)jsonNokTx));
+		_sys->SYS_cmdResponse((uint8_t*)jsonNokTx, strlen((char*)jsonNokTx));
 		return IDLE;
 	default:
 		return _currentState;		// Ignore event and stay here

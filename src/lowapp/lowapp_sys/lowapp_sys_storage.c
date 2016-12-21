@@ -8,16 +8,10 @@
 
 
 #include <stdint.h>
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <uuid/uuid.h>
-//#include <string.h>
 #include <unistd.h>
-//#include "lowapp_utils_conversion.h"
 #include <stdbool.h>
 #include "lowapp_log.h"
 #include "configuration.h"
-//#include "lowapp_sys_impl.h"
 
 #include "lowapp_sys_storage.h"
 #include "radio-simu.h"

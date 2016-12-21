@@ -135,10 +135,8 @@ int main(int argc, char* argv[]) {
 		/* Init mutexes */
 		init_mutexes();
 
-		/* Setup timers */
-//		init_timer1();
-//		init_timer2();
-//		init_repet_timer();
+		/* Start reandom number generator */
+		srand(time(NULL)+arguments.uuid[0]+arguments.uuid[1]);
 
 		/* Set system level functions for the core */
 		register_sys_functions(&_lowappSysIf);
