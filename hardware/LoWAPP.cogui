@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_msg.c" partName="lowapp_msg.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_msg.c" title="lowapp_msg.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_msg.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_msg.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="7140" selectionTopPixel="3264"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_radio_evt.c" partName="lowapp_radio_evt.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_radio_evt.c" title="lowapp_radio_evt.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_radio_evt.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_radio_evt.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3134" selectionTopPixel="1350"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_core.h" partName="lowapp_core.h" title="lowapp_core.h" tooltip="C:\Users\Nathan Olff\Documents\Firmware\lowapp\src\lowapp\lowapp_core\lowapp_core.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Users\Nathan Olff\Documents\Firmware\lowapp\src\lowapp\lowapp_core\lowapp_core.h" project="LoWAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2755" selectionTopPixel="1933"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys.h" partName="lowapp_sys.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_sys.h" title="lowapp_sys.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_sys.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_sys.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6834" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_uart.c" partName="lowapp_sys_uart.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_uart.c" title="lowapp_sys_uart.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_uart.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_uart.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1322" selectionTopPixel="612"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_if.h" partName="lowapp_if.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_if.h" title="lowapp_if.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_if.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_if.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="460" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_eeprom.c" partName="lowapp_sys_eeprom.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_eeprom.c" title="lowapp_sys_eeprom.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_eeprom.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_eeprom.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1846" selectionTopPixel="510"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_core.h" partName="lowapp_core.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_core.h" title="lowapp_core.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_core.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_core.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="3268" selectionTopPixel="2380"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_utils_queue.h" partName="lowapp_utils_queue.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_utils/lowapp_utils_queue.h" title="lowapp_utils_queue.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_utils/lowapp_utils_queue.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_utils/lowapp_utils_queue.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1323" selectionTopPixel="782"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_types.h" partName="lowapp_types.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_types.h" title="lowapp_types.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_types.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_types.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="664" selectionTopPixel="121"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys.h" partName="lowapp_sys.h" title="lowapp_sys.h" tooltip="C:\Users\Nathan Olff\Documents\Firmware\lowapp\src\lowapp\lowapp_core\lowapp_sys.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Users\Nathan Olff\Documents\Firmware\lowapp\src\lowapp\lowapp_core\lowapp_sys.h" project="LoWAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="7066" selectionTopPixel="3757"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_impl.c" partName="lowapp_sys_impl.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_impl.c" title="lowapp_sys_impl.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_impl.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_impl.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="4406" selectionTopPixel="1870"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_radio.c" partName="lowapp_sys_radio.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_radio.c" title="lowapp_sys_radio.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_radio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_radio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="2908" selectionTopPixel="1853"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="radio.h" partName="radio.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/radio.h" title="radio.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/radio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/radio/radio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="3327" selectionTopPixel="1870"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_msg.h" partName="lowapp_msg.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_msg.h" title="lowapp_msg.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_msg.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_msg.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="860" selectionTopPixel="476"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_impl.h" partName="lowapp_sys_impl.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_impl.h" title="lowapp_sys_impl.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_impl.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_impl.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="541" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sx1272.c" partName="sx1272.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/sx1272/sx1272.c" title="sx1272.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/sx1272/sx1272.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/radio/sx1272/sx1272.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5584" selectionTopPixel="4158"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_inc.h" partName="lowapp_inc.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_inc.h" title="lowapp_inc.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_inc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_inc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="1129" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sm.c" partName="lowapp_sm.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_sm.c" title="lowapp_sm.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_sm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_sm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19544" selectionTopPixel="11955"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="uart-board.c" partName="uart-board.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/uart-board.c" title="uart-board.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/uart-board.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/W_BASE/uart-board.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8000" selectionTopPixel="4913"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="uart.c" partName="uart.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/uart.c" title="uart.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/uart.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/system/uart.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2213" selectionTopPixel="1524"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32l1xx_hal_i2c.c" partName="stm32l1xx_hal_i2c.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c" title="stm32l1xx_hal_i2c.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="871" selectionTopPixel="120"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_atcmd.c" partName="lowapp_atcmd.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_atcmd.c" title="lowapp_atcmd.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_atcmd.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_atcmd.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="744" selectionTopPixel="1530"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_utils_queue.c" partName="lowapp_utils_queue.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_utils/lowapp_utils_queue.c" title="lowapp_utils_queue.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_utils/lowapp_utils_queue.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_utils/lowapp_utils_queue.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5309" selectionTopPixel="2839"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.h" partName="fifo.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/fifo.h" title="fifo.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/fifo.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/system/fifo.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1350"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="fifo.c" partName="fifo.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/fifo.c" title="fifo.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/fifo.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/system/fifo.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1501" selectionTopPixel="790"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/main.c" title="main.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="505" selectionTopPixel="298"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_api.c" partName="lowapp_api.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_api.c" title="lowapp_api.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/lowapp/lowapp_core/lowapp_api.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_api.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4464" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32l1xx_md.s" partName="startup_stm32l1xx_md.s" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/cmsis/arm-gcc/startup_stm32l1xx_md.s" title="startup_stm32l1xx_md.s" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/cmsis/arm-gcc/startup_stm32l1xx_md.s" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/W_BASE/cmsis/arm-gcc/startup_stm32l1xx_md.s"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_radio.h" partName="lowapp_sys_radio.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_radio.h" title="lowapp_sys_radio.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_sys/lowapp_sys_radio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_radio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1057" selectionTopPixel="221"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="sx1272.h" partName="sx1272.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/sx1272/sx1272.h" title="sx1272.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/radio/sx1272/sx1272.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/radio/sx1272/sx1272.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4762" selectionTopPixel="2795"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="board.c" partName="board.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/board.c" title="board.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/board.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/W_BASE/board.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1256" selectionTopPixel="578"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_log.h" partName="lowapp_log.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_log.h" title="lowapp_log.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_log.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_log.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3156" selectionTopPixel="743"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="gpio.c" partName="gpio.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/gpio.c" title="gpio.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/system/gpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/system/gpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1892" selectionTopPixel="1003"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="gpio-board.c" partName="gpio-board.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/gpio-board.c" title="gpio-board.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/gpio-board.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/W_BASE/gpio-board.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="2693" selectionTopPixel="1536"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32l1xx_hal_gpio.h" partName="stm32l1xx_hal_gpio.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio.h" title="stm32l1xx_hal_gpio.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_gpio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="13302" selectionTopPixel="5015"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32l1xx_hal_gpio.c" partName="stm32l1xx_hal_gpio.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c" title="stm32l1xx_hal_gpio.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="18270" selectionTopPixel="7174"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="board.h" partName="board.h" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/board.h" title="board.h" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/boards/W_BASE/board.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/boards/W_BASE/board.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3528" selectionTopPixel="1632"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_log.c" partName="lowapp_log.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_log.c" title="lowapp_log.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp/src/lowapp/lowapp_core/lowapp_log.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_log.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="782"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/hardware/src/main.c" title="main.c" tooltip="C:/Users/Nathan Olff/Documents/Firmware/lowapp-full/hardware/src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LoWAPP/src/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="368" selectionTopPixel="0"/>
+</editor>
+<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="1" verticalPosition="0"/>
+</input>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState>
+<ExpressionKeySet ExpKeys="ATBufferR,msg,currentTxFrame,p1,"/>
+</viewState>
+</view>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/LoWAPP"/>
+<element path="/LoWAPP/src"/>
+<element path="/LoWAPP/src/lowapp"/>
+<element path="/LoWAPP/src/lowapp/lowapp_core"/>
+<element path="/LoWAPP/src/radio"/>
+<element path="/LoWAPP/src/radio/sx1272"/>
+</expanded>
+<selection>
+<element path="/LoWAPP/src/lowapp/lowapp_core/lowapp_types.h"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.cdt.ui.callHierarchy" partName="Call Hierarchy">
+<viewState showFilesInLabels="false" variableFilter="false"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.coocox.component.ui.Help" partName="Help">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1716cfd">
+<folder appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74960214" ratioLeft="1413" ratioRight="472" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1716cfd">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1aefa0f" ratio="0.60940695" ratioLeft="596" ratioRight="382" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1716cfd">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.21962865" ratioLeft="414" ratioRight="1471" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1716cfd"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ced32d" ratio="0.6812367" ratioLeft="639" ratioRight="299" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44954127" ratioLeft="441" ratioRight="540" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@116bf07" ratio="0.36901122" ratioLeft="362" ratioRight="619" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1716cfd">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFolder"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_menu_item_id id="org.eclipse.ui.file.save"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
+<hide_menu_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openFile"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAs"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.projectMenu"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.flashMenu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.debug"/>
+<hide_menu_item_id id="org.coocox.builder.ui.showHelpViewAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_menu_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.build"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_menu_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.TargetManageAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newProject"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.save"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideFlashEraseAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.debug"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.coocox.codebugger.trace.ui.traceview"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.cdt.ui.callHierarchy"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@14f9d4e">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14f9d4e">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@110f8f9" ratio="0.698364" ratioLeft="683" ratioRight="295" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14f9d4e">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e46ee2" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@110f8f9">&#x0A;<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@12be713" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14f9d4e">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.29986054" ratioLeft="430" ratioRight="1004" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14f9d4e"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_sm.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_atcmd.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_log.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_log.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/apps/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_msg.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/main.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="1" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_api.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_if.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_inc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_sys.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/LoWAPP/src/lowapp/lowapp_core/lowapp_types.h"/>
+</editors>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13770" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="33388" y="11"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="34597" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="45205" y="15"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="1007" y="11"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="21678" y="10"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="39242" y="0"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="39270" y="16"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="39530" y="0"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="31422" y="14"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="27986" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="12628" y="0"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="27986" y="0"/>
+</item>
+<item historyLabel="lowapp_atcmd.c" index="1">
+<position info="not_deleted" x="744" y="0"/>
+</item>
+<item historyLabel="lowapp_log.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lowapp_log.h" index="3">
+<position info="not_deleted" x="3156" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="12628" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="2551" y="9"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="11302" y="9"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="11421" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13648" y="9"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13943" y="9"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="14091" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13648" y="9"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13789" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="11430" y="13"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="11209" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="34222" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="34640" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="47317" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="47381" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="47783" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="48187" y="23"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="48183" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="14287" y="13"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="13995" y="0"/>
+</item>
+<item historyLabel="lowapp_sm.c" index="0">
+<position info="not_deleted" x="19195" y="6"/>
+</item>
+<item historyLabel="main.c" index="4">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="lowapp_msg.c" index="5">
+<position info="not_deleted" x="7140" y="10"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="780" y="0"/>
+</item>
+<item historyLabel="lowapp_msg.c" index="5">
+<position info="not_deleted" x="7140" y="10"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Configuration" index="7"/>
+<item historyLabel="lowapp_api.c" index="8">
+<position info="not_deleted" x="4464" y="0"/>
+</item>
+<item historyLabel="lowapp_if.h" index="9">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="lowapp_inc.h" index="10">
+<position info="not_deleted" x="1129" y="17"/>
+</item>
+<item historyLabel="lowapp_sys.h" index="11">
+<position info="not_deleted" x="6834" y="0"/>
+</item>
+<item historyLabel="lowapp_types.h" index="12">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+<item historyLabel="Configuration" index="7"/>
+<item active="true" historyLabel="lowapp_types.h" index="12">
+<position info="not_deleted" x="377" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
+<persistable>
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="1" verticalPosition="0"/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="LoWAPP/src/main.c">
+<persistable path="/LoWAPP/src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main_example_app_gps_xadow.c" tooltip="LoWAPP-example-app/src/apps/main_example_app_gps_xadow.c">
+<persistable path="/LoWAPP-example-app/src/apps/main_example_app_gps_xadow.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" tooltip="LoWAPP-example-app/src/system/timer.c">
+<persistable path="/LoWAPP-example-app/src/system/timer.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gps_xadow_app.c" tooltip="LoWAPP/src/apps/gps_xadow_app.c">
+<persistable path="/LoWAPP/src/apps/gps_xadow_app.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lgps.c" tooltip="LoWAPP/src/xadow_gps_v2/lgps.c">
+<persistable path="/LoWAPP/src/xadow_gps_v2/lgps.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gps_xadow_app.c" tooltip="LoWAPP Example GPS application/src/apps/gps_xadow_app.c">
+<persistable path="/LoWAPP Example GPS application/src/apps/gps_xadow_app.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_timer.c" tooltip="LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_timer.c">
+<persistable path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_timer.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LoRaMacCrypto.c" tooltip="LoWAPP/src/mac/LoRaMacCrypto.c">
+<persistable path="/LoWAPP/src/mac/LoRaMacCrypto.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LoRaMac.c" tooltip="LoWAPP/src/mac/LoRaMac.c">
+<persistable path="/LoWAPP/src/mac/LoRaMac.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sx1272_ex.c" tooltip="LoWAPP/src/radio/sx1272/sx1272_ex.c">
+<persistable path="/LoWAPP/src/radio/sx1272/sx1272_ex.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rtc-board.c" tooltip="LoWAPP/src/boards/W_BASE/rtc-board.c">
+<persistable path="/LoWAPP/src/boards/W_BASE/rtc-board.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" tooltip="LoWAPP/src/system/timer.c">
+<persistable path="/LoWAPP/src/system/timer.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="eeprom.c" tooltip="LoWAPP/src/system/eeprom.c">
+<persistable path="/LoWAPP/src/system/eeprom.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lowapp_sys_eeprom.h" tooltip="LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_eeprom.h">
+<persistable path="/LoWAPP/src/lowapp/lowapp_sys/lowapp_sys_eeprom.h"/>
+</file>
+</mruList>
+</workbench>
